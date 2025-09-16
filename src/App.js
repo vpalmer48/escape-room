@@ -12,7 +12,7 @@ import Puzzle7 from './pages/Puzzle7';
 import Puzzle8 from './pages/Puzzle8';
 import Puzzle9 from './pages/Puzzle9';
 import Puzzle10 from './pages/Puzzle10';
-import ErrorPage from './pages/ErrorPage';
+import Victory from './pages/Victory';
 
 
 class App extends React.Component {
@@ -32,7 +32,7 @@ class App extends React.Component {
           <Route path="/puzzle8" element={<Puzzle8 />} />
           <Route path="/puzzle9" element={<Puzzle9 />} />
           <Route path="/puzzle10" element={<Puzzle10 />} />
-          <Route path="/error" element={<ErrorPage />} />
+          <Route path="/victory" element={<Victory />} />
         </Routes>
       </div>
     );

@@ -5,9 +5,13 @@ class Puzzle2 extends React.Component {
     render() {
         return (
             <div>
-                <h2>Puzzle 2</h2>
+                <h2>Puzzle 2: What's the PIN for the cruise app?</h2>
                 <main>
-                    <p>This section contains information about...</p>
+                    <p>"To help me remember the pin, I made up some riddles about roadtrips we've gone on," Victoria says</p>
+                    <p>The first one: </p>
+                    <p>The second one: </p>
+                    <p>The last one: </p>
+                    <p> Can you try the pin to make sure it works in the app? </p>
                 </main>
             </div>
         )

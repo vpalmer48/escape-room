@@ -5,9 +5,9 @@ class Puzzle9 extends React.Component {
     render() {
         return (
             <div>
-                <h2>Puzzle 9</h2>
+                <h2>Puzzle 9: What do I want to eat?</h2>
                 <main>
-                    <p>This section contains information about...</p>
+                    <p>Somehow this is a math problem because Matthew loves math. </p>
                 </main>
             </div>
         )

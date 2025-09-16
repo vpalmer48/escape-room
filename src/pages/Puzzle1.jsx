@@ -5,9 +5,11 @@ class Puzzle1 extends React.Component {
     render() {
         return (
             <div>
-                <h2>Puzzle1</h2>
+                <h2>Puzzle 1: Where are we going?</h2>
                 <main>
-                    <p>This section contains information about...</p>
+                    <p>Victoria hands you a bag of scraps. </p>
+                    <p> "I think I wrote down the 3 digit cruise confirmation number on some of these scrap pieces of paper.</p>
+                    <p> Can you piece them together and let me know what flight we should be on?"</p>
                 </main>
             </div>
         )
