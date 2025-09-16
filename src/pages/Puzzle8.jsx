@@ -1,8 +1,6 @@
 import React from 'react';
 
-class Puzzle8 extends React.Component {
-
-    render() {
+function Puzzle8() {
         return (
             <div>
                 <h2>Puzzle 8: What time is dinner?</h2>
@@ -16,6 +14,5 @@ class Puzzle8 extends React.Component {
             </div>
         )
     }
-}
 
 export default Puzzle8;

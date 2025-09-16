@@ -1,8 +1,6 @@
 import React from 'react';
 
-class Victory extends React.Component {
-
-    render() {
+function Victory() {
         return (
             <div>
                 <h2>You win!</h2>
@@ -13,6 +11,5 @@ class Victory extends React.Component {
             </div>
         )
     }
-}
 
 export default Victory;

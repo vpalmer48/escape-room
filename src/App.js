@@ -14,9 +14,7 @@ import Puzzle9 from './pages/Puzzle9';
 import Puzzle10 from './pages/Puzzle10';
 import Victory from './pages/Victory';
 
-
-class App extends React.Component {
-  render() {
+function App() {
     return (
       <div className="App">
         <Routes>
@@ -37,6 +35,5 @@ class App extends React.Component {
       </div>
     );
   }
-}
 
 export default App;

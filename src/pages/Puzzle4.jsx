@@ -1,8 +1,6 @@
 import React from 'react';
 
-class Puzzle4 extends React.Component {
-
-    render() {
+function Puzzle4() {
         return (
             <div>
                 <h2>Puzzle 4: Unlocking the Rental Car App</h2>
@@ -15,6 +13,5 @@ class Puzzle4 extends React.Component {
             </div>
         )
     }
-}
 
 export default Puzzle4;

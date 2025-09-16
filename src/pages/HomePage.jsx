@@ -1,8 +1,7 @@
 import '../App.css';
 import React from 'react';
 
-class Home extends React.Component {
-    render() {
+function Home() {
         return (
             <div>
                 <h2>Going on a trip!</h2>
@@ -21,7 +20,5 @@ class Home extends React.Component {
 
         );
     }
-
-}
 
 export default Home;
