@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/escape-room/static/css/main.f855e6bc.css",
-    "main.js": "/escape-room/static/js/main.5336af5e.js",
+    "main.js": "/escape-room/static/js/main.099c6db1.js",
     "static/js/453.6a31f66e.chunk.js": "/escape-room/static/js/453.6a31f66e.chunk.js",
     "index.html": "/escape-room/index.html",
     "main.f855e6bc.css.map": "/escape-room/static/css/main.f855e6bc.css.map",
-    "main.5336af5e.js.map": "/escape-room/static/js/main.5336af5e.js.map",
+    "main.099c6db1.js.map": "/escape-room/static/js/main.099c6db1.js.map",
     "453.6a31f66e.chunk.js.map": "/escape-room/static/js/453.6a31f66e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.5336af5e.js"
+    "static/js/main.099c6db1.js"
   ]
 }
