@@ -1,7 +1,15 @@
 import '../App.css';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import Button from '@mui/material/Button';
 
 function Home() {
+    const navigate = useNavigate();
+
+      const startTheEscapeRoom = () => {
+        navigate('/puzzle1');
+      };
+
         return (
             <div>
                 <h2>Going on a trip!</h2>
@@ -14,7 +22,9 @@ function Home() {
                     <p> If you run into any issues, let me know and I can try to fix them. </p>
                     <p> But without further ado! Welcome to the challenge!!! Let me set the scene... </p>
                     <p> I've decided to surprise you with a cruise! But before we can enjoy the trip, we have to actually get there, right? </p>
-
+                    <div>
+                        <Button variant="outlined" onClick={startTheEscapeRoom}>Let's go on a trip!</Button>
+                    </div>
                 </main>
             </div>
 
