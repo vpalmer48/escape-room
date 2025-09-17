@@ -10,7 +10,7 @@ function Puzzle9 () {
         return (
             <div>
                 <h2>Puzzle 9: What do I want to eat?</h2>
-                <main>
+                <main style={{ display: 'flex', flexDirection: 'column',  alignItems: 'center' }}>
                     <p>As we sit down at the all-inclusive dinner, the waiter tells you that you get a $48 credit. </p>
                     <p> Of course, as with the theme of this cruise, instead of giving you the price a la carte, you instead get a list of price combinations </p>
                     <p> Using the following combinations, what would you be able to get with $40 without going over or under </p>

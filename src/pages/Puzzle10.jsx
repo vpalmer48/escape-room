@@ -10,7 +10,7 @@ function Puzzle10() {
         return (
             <div>
                 <h2>Puzzle 10: Dinner and a show? </h2>
-                <main>
+                <main style={{ display: 'flex', flexDirection: 'column',  alignItems: 'center' }}>
                     <p>After dinner, you head to the theater to see "& Juliet"</p>
                     <p> Victoria described the musical as a "Jukebox musical" where they cover a bunch of songs</p>
                     <p> You watch the show and love it! However, when you get back to your room, you notice Victoria marked up the program.</p>
