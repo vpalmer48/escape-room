@@ -24,7 +24,7 @@ function App() {
           <Route path="/720" element={<Puzzle2 />} />
           <Route path="/981" element={<Puzzle3 />} />
           <Route path="/1415-4" element={<Puzzle4 />} />
-          <Route path="/123" element={<Puzzle5 />} />
+          <Route path="/509" element={<Puzzle5 />} />
           <Route path="/683-JKP" element={<Puzzle6 />} />
           <Route path="/642" element={<Puzzle7 />} />
           <Route path="/126" element={<Puzzle8 />} />
