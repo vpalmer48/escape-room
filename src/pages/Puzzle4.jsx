@@ -17,11 +17,11 @@ function Puzzle4() {
                     <p>These hints are arranged into a crossword with highlighted letters to allow users to get their 3 digit pin upon crossword completion. </p>
                     <p> While you're sitting bored on the plan anyways, you decide to try to finish the crossword puzzle so you can get the car immediately.</p>
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'flex-start', width: '750px' }}>
-                        <p>1st Digit: (5) of ((20)*(83)+(53))/73</p>
+                        <p>1st Digit: (5) of ((20)*(83)+(4681))/73</p>
                         <p>2nd Digit: ((18)-(reverse of 62)) - x^(35) </p>
                         <p>3rd Digit: sqrt((76)^(48)) + (70)</p>
                     </div>
-                    < ThreeDigitBox correctAnswer="123" />
+                    < ThreeDigitBox correctAnswer="509" />
                     < HintBox hint1={hint1} hint2={hint2} hint3={hint3} solution={solution}/>
                 </main>
             </div>
